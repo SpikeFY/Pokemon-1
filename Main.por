@@ -1,7 +1,6 @@
 programa {
 
 	inclua biblioteca Util --> u
-	
 	funcao inicio() {
 		start()
 		newGame()
@@ -208,10 +207,9 @@ programa {
       leia(sexo)
       escreva(sexo)
       se (sexo == "menino" ou sexo == "Menino" ou sexo == "menina" ou sexo == "Menina"){
-
       }
   }
-  funcao gamePart2(){
+ 
 	  se(sexo == "menino" ou sexo == "Menino"){
         escreva("\nPrazer em conhecê-lo, ", nome)
 
@@ -397,9 +395,10 @@ programa {
 	u.aguarde(4000)
 
 	limpa()
-}
+  }
+
 	 	
-  }//fim funcao gamePart1
+  //fim funcao gamePart1
 	
 	funcao pokedex()
 
